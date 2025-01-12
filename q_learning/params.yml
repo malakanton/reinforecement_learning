@@ -1,0 +1,9 @@
+mountaincar1:
+  env_id: MountainCar-v0
+  q_table_dims: 20
+  learning_rate: 0.2
+  start_epsilon: 0.5
+  epsilon_decay: 0.9995
+  discount: 0.95
+  episodes: 20000
+  max_punishment: -500
